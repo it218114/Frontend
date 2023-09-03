@@ -1,0 +1,28 @@
+.register-pages { 
+
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-image: url("https://img.freepik.com/premium-photo/abstract-blur-library-blurred-book-shelves-hall-generative-ai_791316-6098.jpg?w=900");
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.register-styles {
+    width: 53%;
+    background-color: #063970;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+}
+
+.register-style h3 {
+    color: rgb(8, 8, 10);
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 576px) {
+    .register-style {
+        width: 100%;
+    }
+}

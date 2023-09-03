@@ -1,0 +1,29 @@
+.register-page { 
+
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-repeat: repeat;
+    background-position: center center;
+    background-image: none;
+    background-image: url("https://img.freepik.com/free-photo/top-view-business-office-desk-background-applying-job-form-pen-pencil-eyeglasses-tree-wooden-table-background-with-copy-space_1921-21.jpg?w=900&t=st=1687069024~exp=1687069624~hmac=f6a437a2448039d1ae55de17503c13f711c8a4d223040a0ac632771d2bd0a9c3");
+    background-size: cover;
+    height: auto;
+}
+
+.add-application-style {
+    width: 53%;
+    background-color: #063970;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+}
+
+.register-style h3 {
+    color: rgb(8, 8, 10);
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 576px) {
+    .register-style {
+        width: 100%;
+    }
+}
